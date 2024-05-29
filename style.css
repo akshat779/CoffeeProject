@@ -1,0 +1,197 @@
+*{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+:root{
+    --main-color: #deab5f;
+    --primary-color:#312e2e;
+}
+
+button{
+    padding:10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor:pointer;
+    /* color: var(--primary-color); */
+}
+
+body{
+    background: #100e0f;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top:15px;
+    /* height: 100vh; */
+    /* border-bottom: 1px solid #ffffff; */
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+
+li a{
+    color:#fff;
+    text-decoration: none;
+    margin-left: 40px;
+    /* border-bottom: 1px solid #fff; */
+    padding-bottom: 10px;
+    
+}
+
+li a:hover{
+    /* color: var(--main-color); */
+    /* color: blue; */
+    border-bottom: 2px solid #deab5f;
+}
+
+/* header start */
+.header{
+    background:url("./Images/Coffee\ Landing\ Page\ Image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 1px solid #fff; */
+    height: 100vh;
+    font-family: "Playfair Display", sans-serif;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+
+}
+
+.main-heading{
+    position: absolute;
+    font-family: "Playfair Display", sans-serif;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 15px;
+    margin-bottom: -40px;
+    /* border: 1px solid #fff; */
+}
+
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    word-spacing: 10px;
+    margin-bottom:10px;
+    font-size:4rem;
+    /* border: 1px solid #fff; */
+
+}
+
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    /* border: 1px solid #fff; */
+    padding: 10px 30px;
+    /* margin:40px; */
+    margin-top:20px;
+    background:transparent;
+    background-color: var(--main-color);
+    transform: translateY(60px);
+
+}
+
+#our-story{
+    height: 100vh;
+    /* border: 1px solid #fff; */
+    margin-top: 10%;
+    /* background-color:aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* border: 1px solid #fff; */
+}
+
+/* .img-container{
+    border: 10px solid #970707;
+} */
+
+.img{
+    width: 400px;
+    height:400px;
+    background:url("./Images/Coffee\ Chitokan.png");
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid #fff; */
+}
+
+.title-style{
+    display:flex;
+    align-items: center;
+}
+
+.title{
+    font-family:"Playfair Display", sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translatex(-100px);
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+
+}
+
+.section-content p{
+    font-family: sans-serif;
+    max-width: 500px;
+    color: #fff;
+    line-height: 20px;
+    margin: 20px;
+    /* border: 1px solid #fff; */
+
+}
+
+/* coffee section */
+.coffee-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    /* border: 1px solid #fff; */
+}
+
+.content-section p{
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.img2{
+    width: 400px;
+    height: 400px;
+}
+
+.title-two{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: normal;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.content-section{
+
+}
